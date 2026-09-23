@@ -2,9 +2,9 @@
 int main(){
     int pin,amount,choice;// Declare the variable using int keyword.
     float balance=5000;//Declare the variable using float keyword.
-    printf("--ATM menu--");
-    printf("1.Withdrawl amount");
-    printf("2. Deposit amount.");
+    printf("--ATM menu--\n");
+    printf("1.Withdrawl amount\n");
+    printf("2. Deposit amount.\n");
     printf("Enter the pin:\n");//Takes the pin from the user.
     scanf("%d",&pin);//Takes the input that user has enetered and  stores to pin varaible.
     printf("Enter choice:");//Takes the choice from the user.
