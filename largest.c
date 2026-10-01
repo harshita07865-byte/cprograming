@@ -5,7 +5,7 @@ int main(){// Execution of the program starts.
     for(i=0; i<5; i++){//  Takes 5 number.
         scanf("%d",&a[i]);// Takes input and stores to array.
     }
-    largest = a[0];// Largest = to 1 number
+    largest = a[0];// Largest = to 1st number
     for(i=1;i<5;i++){
         if(a[i]>largest){// comparing with the first number.
             largest = a[i];// Largest number.
