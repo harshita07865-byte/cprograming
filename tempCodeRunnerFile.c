@@ -1,12 +1,19 @@
 #include <stdio.h>
 int main(){
-    int i,j,a[3][3]={{1,2,3},{3,4,5},{5,6,7}};
-    int sum=0;
-    for(i=0;i<3;i++){
+    int a[4][3],i,j,sum;
+    printf("Enter the matrix:");
+    for(i=0;i<4;i++){
         for(j=0;j<3;j++){
-           sum = sum +a[i][j];
+            scanf("%d" &a[i][j]);
         }
     }
-    printf("Sum=%d",sum);
+    for(i=0;i<4;i++){
+        sum=0;
+        for(j=0;j<3;j++){
+        sum = sum + a[i][j];
+        }
+        printf("\n");
+    }
+    printf("Sum of each row is%d=%d",i+1,sum);
     return 0;
 }
